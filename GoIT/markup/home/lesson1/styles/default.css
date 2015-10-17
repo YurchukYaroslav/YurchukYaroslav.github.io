@@ -14,5 +14,27 @@ body {
     left:350px;
 
 }
+#head {
+    padding: 15px;
+}
+
+#content {
+    padding: 15px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: grey;
+}
+#footer {
+    padding: 15px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: grey;
+}
+#fidback {
+    padding: 15px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: grey;
+}
 
 
