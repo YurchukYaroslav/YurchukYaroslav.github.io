@@ -1,0 +1,40 @@
+
+html {
+    background-color: lightgray;
+}
+
+body {
+    background-color: white;
+    height:750px;
+    width: 512px;
+    position:absolute;
+    border: 1px solid gray;
+    padding:50px;
+    top:2px;
+    left:350px;
+
+}
+#head {
+    padding: 15px;
+}
+
+#content {
+    padding: 15px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: grey;
+}
+#footer {
+    padding: 15px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: grey;
+}
+#fidback {
+    padding: 15px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: grey;
+}
+
+
