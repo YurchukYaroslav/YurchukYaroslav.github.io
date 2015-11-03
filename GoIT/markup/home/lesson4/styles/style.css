@@ -1,1 +1,196 @@
+.backspace {
+    background-image: url(../img/background.png);
+    background-repeat: repeat-x;
+}
+.mainspace {
+    position: absolute;
+    width: 1000px;
+    height: 986px;
+    background-color: white;
+    top: 40px;
+    left: 181px;
+}
+#photo {
+    position: absolute;
+    top: 173px;
+    border: 1px solid #00a8fd;
 
+}
+#logo img {
+    position: absolute;
+    top: 9px;
+    left: 28px;
+}
+#count img {
+    position: absolute;
+    top: 110px;
+    left: 640px;
+}
+#travel img {
+    position: absolute;
+    top: 109px;
+    left: 100px;
+}
+.countries li {
+    position: relative;
+    top: 150px;
+    left: 645px;
+    display: inline;
+    font-size: 11px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+}
+.countries a {
+    color: #00a8fd;
+}
+#nepal a {
+    padding: 22px;
+}
+#tibet a {
+    padding: 0px;
+}
+#butan a {
+    padding: 0 0 0 22px;
+}
+#lanka a {
+    padding: 0 0 0 9px;
+}
+#maldiv a {
+    padding: 1px;
+}
+.contact li {
+    position: relative;
+    top: 9px;
+    left: 842px;
+    font-size: 13px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #00a8fd;
+
+}
+.countries a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+.menu {
+    top:411px;
+    position: absolute;
+    width: 1000px;
+    height: 30px;
+    padding: 10px 0 0 0;
+    border-bottom: 2px solid black;
+    background: #5e5e5e;
+    background: -moz-linear-gradient(top,  #5e5e5e 0%, #444343 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5e5e5e), color-stop(100%,#444343));
+    z-index: 10;
+}
+
+.menu ul {
+    list-style:none;
+    position:relative;
+    float:left;
+    margin: -5px;
+    padding:0;
+}
+
+.menu ul a {
+    display:block;
+    color: #ffffff;
+    text-decoration:none;
+    font-weight:500;
+    font-size:13px;
+    line-height:32px;
+    padding:0 15px;
+    font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+.menu ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0 20px 0 20px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.menu ul li .travelings .servises .partners {
+    background: #484848;
+    border-bottom: 1px solid black;
+    width: auto;
+}
+
+/*.menu ul li:hover {
+    padding: 0 0 0px 0;
+}*/
+
+.menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background: #484848;
+    padding:0;
+}
+
+.menu ul ul li {
+    float:none;
+    width:100px
+}
+
+.menu ul ul a {
+    line-height:120%;
+    padding:10px 15px
+}
+
+.menu ul ul ul {
+    top:0;
+    left:100%
+}
+
+.menu ul li:hover > ul {
+    display:block
+}
+.left_box {
+    width: 208px;
+    height: 531px;
+    position: absolute;
+    float: left;
+    clear: both;
+    display: block;
+    background-color: lightgrey;
+    top: 453px;
+    border: 1px solid #a2a2a2;
+    z-index: 1;
+}
+.right_box {
+    width: 208px;
+    height: 531px;
+    position: relative;
+    float: right;
+    clear: right;
+    background-color: lightgrey;
+    top: 385px;
+    border: 1px solid #a2a2a2;
+}
+.right_box p {
+    padding: 5px 15px;
+    color: #2e2e2e;
+}
+.left_box p {
+    padding: 5px 5px;
+    font-stretch: expanded;
+    color: #2e2e2e;
+}
+h1 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #2e2e2e;
+    margin: 5px 40% 0 35%;
+}
+.copyright {
+    clear: both;
+    top: 1035px;
+    position: absolute;
+    color: white;
+    background-color: transparent;
+    padding: 0 40% 0 40%;
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
