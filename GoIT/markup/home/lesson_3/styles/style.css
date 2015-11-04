@@ -68,11 +68,11 @@ body {
         margin: 40px 44px 0 0;
         float: right;
     }
-    .picture {
+    .content img {
         float: right;
-        width: 478px;
-        height: auto;
-        margin: 30px 244px 0 0;
+        padding: 20px 45px 0 0;
+
+
     }
     .content_bar {
         width: 240px;
