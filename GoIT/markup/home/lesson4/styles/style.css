@@ -1,3 +1,7 @@
+body {
+    width: 1350px;
+    height: 1060px;
+}
 .backspace {
     background-image: url(../img/background.png);
     background-repeat: repeat-x;
@@ -72,7 +76,6 @@
 
 }
 .countries a:hover {
-    color: gray;
     text-decoration: none;
 }
 
@@ -90,35 +93,34 @@
 }
 
 .menu ul {
-    list-style:none;
-    position:relative;
-    float:left;
+    list-style: none;
+    position: relative;
+    float: left;
     margin: -5px;
-    padding:0;
+    padding: 0;
 }
 
 .menu ul a {
-    display:block;
+    display: block;
     color: #ffffff;
-    text-decoration:none;
+    text-decoration: none;
     font-weight:500;
-    font-size:13px;
-    line-height:32px;
-    padding:0 15px;
-    font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+    font-size: 13px;
+    line-height: 32px;
+    padding: 0 15px;
+    font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .menu ul li {
-    position:relative;
-    float:left;
-    margin:0;
+    position: relative;
+    float: left;
+    margin: 0;
     padding:0 20px 0 20px;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
 .menu ul li .travelings .servises .partners {
     background: #484848;
-    border-bottom: 1px solid black;
     width: auto;
 }
 
@@ -151,8 +153,10 @@
 }
 
 .menu ul li:hover > ul {
-    display:block
+    display:block;
+    border-bottom: 1px solid black;
 }
+
 .left_box {
     width: 208px;
     height: 531px;
@@ -177,11 +181,12 @@
 }
 .right_box p {
     padding: 5px 15px;
+    letter-spacing: 2px;
     color: #2e2e2e;
 }
 .left_box p {
     padding: 5px 15px;
-    font-stretch: expanded;
+    letter-spacing: 2px;
     color: #2e2e2e;
 }
 h1 {
@@ -191,11 +196,9 @@ h1 {
     margin: 5px 40% 0 35%;
 }
 .copyright {
-    clear: both;
-    position: absolute;
-    top: 1035px;
+    position: relative;
+    bottom: 25px;
+    text-align: center;
     color: white;
-    background-color: transparent;
-    padding: 0 40% 0 40%;
     font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
