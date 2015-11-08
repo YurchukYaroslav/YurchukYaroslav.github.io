@@ -2,19 +2,39 @@ html {
     width: 1215px;
     height: 1066px;
 }
+.picture {
+    background-image: url(../img/homework5.jpg);
+    position: absolute;
+    top: 36px;
+
+
+}
 .top-menu {
     width: 1215px;
     height: 36px;
     background-color: #006699;
+
 }
 .top-menu li {
-    float: right;
+    float: left;
+    position: relative;
+    left: 250px;
     display: inline;
-    padding: 10px 30px;
+    padding: 10px 15px;
     text-decoration: none;
+    font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
 
 }
 .top-menu a {
     color: #6699ff;
     text-decoration: none;
+    padding: 5px;
+}
+#flag img, a {
+    margin: 0 5px -9px 0;
+}
+#flag img {
+    border-left: 1px solid #00a8fd;
+    padding: 0 0 0 25px;
+
 }
