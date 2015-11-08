@@ -1,0 +1,20 @@
+html {
+    width: 1215px;
+    height: 1066px;
+}
+.top-menu {
+    width: 1215px;
+    height: 36px;
+    background-color: #006699;
+}
+.top-menu li {
+    float: right;
+    display: inline;
+    padding: 10px 30px;
+    text-decoration: none;
+
+}
+.top-menu a {
+    color: #6699ff;
+    text-decoration: none;
+}
