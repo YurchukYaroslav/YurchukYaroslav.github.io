@@ -1,14 +1,18 @@
-html {
-    width: 1215px;
-    height: 1066px;
-}
+/*
+
+body {
+    overflow: hidden;
+    height: 100%;*/
+
 .picture {
-    background-image: url(../img/homework5.jpg);
+    background-image: url(../img/background.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
     position: absolute;
     top: 36px;
 }
 .top-menu {
-    width: 1215px;
+    width: 1415px;
     height: 36px;
     background-color: #006699;
 
@@ -16,7 +20,7 @@ html {
 .top-menu li {
     float: left;
     position: relative;
-    left: 250px;
+    left: 420px;
     display: inline;
     padding: 10px 15px;
     text-decoration: none;
@@ -64,8 +68,8 @@ html {
 
 #cadastr {
     position: relative;
-    top: 215px;
-    left: 354px;
+    top: -64px;
+    left: 0px;
     width: 560px;
     height: 62px;
     background-color: #292929;
@@ -79,11 +83,11 @@ html {
     font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .box {
-    position: relative;
+    position: absolute;
     top: 217px;
     width: 560px;
     height: 550px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     text-align: center;
     margin: 0 354px 0 354px;
 }
@@ -91,7 +95,7 @@ html {
     position: relative;
     float: right;
     right: 135px;
-    top: 36px;
+    top: -26px;
     width: 276px;
     height: 36px;
     background: #405690;
@@ -135,7 +139,7 @@ html {
     position: relative;
     float: left;
     left: 265px;
-    top: 100px;
+    top: 50px;
     text-align: center;
     color: #8e8f8e;
 
@@ -143,7 +147,7 @@ html {
 .form {
     position: relative;
     float: right;
-    top: 110px;
+    top: 60px;
     left: 140px;
     width: 276px;
     height: 400px;
@@ -166,7 +170,7 @@ html {
     float: right;
     display: inline;
     right: 140px;
-    margin-top: 10px;
+    margin-top: -55px;
 
 }
 .chek span {
@@ -176,8 +180,8 @@ html {
 .create {
     position: relative;
     float: right;
-    right: -70px;
-    bottom: -45px;
+    right: 196px;
+    bottom: 26px;
     width: 150px;
     height: 36px;
     background: #405690;
@@ -201,13 +205,13 @@ html {
     float: left;
     left: 135px;
     text-align: center;
-    bottom: -55px;
+    bottom: -22px;
     width: 300px;
     height: 26px;
 }
 .by_click p {
     font-size: 15px;
-    color:black;
+    color: #afafaf;
 }
 
 .form input:hover {
