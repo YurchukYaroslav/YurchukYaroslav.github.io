@@ -74,7 +74,7 @@ html {
 }
 #cadastr p {
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 300;
     padding: 15px;
     font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
@@ -92,7 +92,7 @@ html {
     float: right;
     right: 135px;
     top: 36px;
-    width: 280px;
+    width: 276px;
     height: 36px;
     background: #405690;
     border-radius: 5px;
@@ -119,7 +119,7 @@ html {
 #face span {
     font-size: 20px;
     color: white;
-    font-weight: 700;
+    font-weight: 500;
     padding: 0 5px;
     font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
 
@@ -131,8 +131,88 @@ html {
     font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-#ou p {
+.ou p {
+    position: relative;
+    float: left;
+    left: 265px;
+    top: 100px;
     text-align: center;
     color: #8e8f8e;
-    margin: 0 0 20px 0;
+
+}
+.form {
+    position: relative;
+    float: right;
+    top: 110px;
+    left: 140px;
+    width: 276px;
+    height: 400px;
+}
+.form input {
+    width: 276px;
+    height: 36px;
+    margin: 17px 0 0 0;
+    background-color: #111111;
+    border: none;
+    border-bottom: 1px solid #8d8d8d;
+
+}
+ [name = first], [name = last], [name = email], [name = confirm], [name = pass] {
+    color: white;
+    padding: 0 0 0 10px;
+}
+.chek {
+    position: relative;
+    float: right;
+    display: inline;
+    right: 140px;
+    margin-top: 10px;
+
+}
+.chek span {
+    color: white;
+    font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.create {
+    position: relative;
+    float: right;
+    right: -70px;
+    bottom: -45px;
+    width: 150px;
+    height: 36px;
+    background: #405690;
+    border-radius: 3px;
+    background: -moz-linear-gradient(top, #6181d8 0%, #3d5aa3 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6181d8), color-stop(100%, #3d5aa3));
+    background: -webkit-linear-gradient(top, #6181d8 0%, #3d5aa3 100%);
+    background: -o-linear-gradient(top, #6181d8 0%, #3d5aa3 100%);
+    background: -ms-linear-gradient(top, #6181d8 0%, #3d5aa3 100%);
+    background: linear-gradient(to bottom, #6181d8 0%, #3d5aa3 100%);
+}
+.create p {
+    padding: 10px;
+}
+.create a {
+    text-decoration: none;
+    color: white;
+}
+.by_click {
+    position: relative;
+    float: left;
+    left: 135px;
+    text-align: center;
+    bottom: -55px;
+    width: 300px;
+    height: 26px;
+}
+.by_click p {
+    font-size: 15px;
+    color:black;
+}
+
+.form input:hover {
+    background-color: #336699;
+    -webkit-box-shadow: 5px 0px 0px 0px rgba(255, 255, 255, 0.4);
+    -moz-box-shadow: 0px 5px 0px 0px rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.4);
 }
