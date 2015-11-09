@@ -1,18 +1,15 @@
-/*
-
-body {
+html {
+    max-width: 99%;
+    max-height: 99%;
     overflow: hidden;
-    height: 100%;*/
+}
 
 .picture {
     background-image: url(../img/background.jpg);
-    background-position: top center;
-    background-repeat: no-repeat;
-    position: absolute;
     top: 36px;
 }
 .top-menu {
-    width: 1415px;
+    width: 1921px;
     height: 36px;
     background-color: #006699;
 
@@ -20,9 +17,9 @@ body {
 .top-menu li {
     float: left;
     position: relative;
-    left: 420px;
+    left: 800px;
     display: inline;
-    padding: 10px 15px;
+    padding: 10px 10px;
     text-decoration: none;
     font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
 
@@ -69,7 +66,7 @@ body {
 #cadastr {
     position: relative;
     top: -64px;
-    left: 0px;
+    left: 0;
     width: 560px;
     height: 62px;
     background-color: #292929;
@@ -82,14 +79,26 @@ body {
     padding: 15px;
     font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+.left_phantom {
+    position: absolute;
+    float: left;
+    width: auto;
+}
 .box {
     position: absolute;
-    top: 217px;
+    top: 55%;
+    left: 50%;
     width: 560px;
     height: 550px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
-    margin: 0 354px 0 354px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.right_phantom {
+    position: absolute;
+    float: right;
+    width: auto;
 }
 #face {
     position: relative;
@@ -114,7 +123,7 @@ body {
     left: 10px;
     top: 2px;
     border-right: 1px solid #5775bb;
-    font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-decoration: none;
     padding: 4px 20px 5px 0px;
     font-weight: 700;
@@ -212,6 +221,7 @@ body {
 .by_click p {
     font-size: 15px;
     color: #afafaf;
+    font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .form input:hover {
