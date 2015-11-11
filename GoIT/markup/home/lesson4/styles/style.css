@@ -1,19 +1,17 @@
-body {
-    width: 1350px;
-    height: 1060px;
-}
+
 .backspace {
     background-image: url(../img/background.png);
     background-repeat: repeat-x;
 
 }
+
 .mainspace {
     position: absolute;
     width: 1000px;
     height: 986px;
     background-color: white;
     top: 40px;
-    left: 181px;
+    left: 25%;
     -webkit-box-shadow: -1px 5px 16px 3px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px 5px 16px 3px rgba(0,0,0,0.75);
     box-shadow: -1px 5px 16px 3px rgba(0,0,0,0.75);
@@ -66,10 +64,15 @@ body {
 #maldiv a {
     padding: 1px;
 }
-.contact li {
+.our_contacts {
+    width: 145px;
+    height: 120px;
     position: relative;
+    float: right;
     top: 9px;
-    left: 842px;
+}
+.contact li {
+
     font-size: 13px;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     color: #00a8fd;
@@ -165,7 +168,7 @@ body {
     clear: both;
     display: block;
     background-color: lightgrey;
-    top: 453px;
+    top: 452px;
     border: 1px solid #a2a2a2;
     z-index: 1;
 }
@@ -176,7 +179,7 @@ body {
     float: right;
     clear: right;
     background-color: lightgrey;
-    top: 385px;
+    top: 316px;
     border: 1px solid #a2a2a2;
 }
 .right_box p {
