@@ -137,11 +137,29 @@ html {
 .ou p {
     position: relative;
     float: left;
-    left: 265px;
+    left: 285px;
     top: 50px;
     text-align: center;
     color: #8e8f8e;
 
+}
+.ou p:before,
+.ou p:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid gray ;
+    box-shadow:0px 1px 0 #111100;
+    top: 0;
+    width: 125px;
+}
+.ou p:before {
+    right: 100%;
+    margin-right: 10px;
+}
+.ou p:after {
+    left: 100%;
+    margin-left: 10px;
 }
 .form {
     position: relative;
