@@ -173,7 +173,7 @@ body {
     position: absolute;
     text-align: center;
     bottom: -100px;
-    right: -310px;
+    right: -260px;
     left: 250px;
 }
 
@@ -285,9 +285,11 @@ body {
     color: #454545;
     text-transform: uppercase;
     transform: scaleX(0.5);
+    text-shadow: 2px 0 2px rgba(134, 134, 134, 0.91);
 }
 .pingbuller__starts__starts_here span {
     color: #edbfff;
+    text-shadow: none;
 }
 .pingbuller__starts__starts_here p {
     width: 343px;
@@ -301,7 +303,7 @@ body {
     background: url("../img/think.png") repeat-x;
 
 }
-.active__control {
+.pingbuller__starts__starts_here > .active__control {
     position: absolute;
     text-align: center;
     bottom: 40px;
@@ -314,4 +316,46 @@ body {
     height: 50px;
     margin: 90px 25px 0 -24px;
     z-index: 100;
+}
+
+.pingbuller__starts__updates h1 {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 28px 0 0 -90px;
+    color: #454545;
+    text-transform: uppercase;
+    transform: scaleX(0.5);
+    text-shadow: 2px 0 2px rgba(134, 134, 134, 0.91);
+
+}
+.pingbuller__starts__updates h2 {
+    width: 400px;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin: 10px 0 0 60px;
+    line-height: 22px;
+    color: black;
+}
+.pingbuller__starts__updates a {
+    text-decoration: none;
+    color: black;
+    text-shadow: 2px 0 2px rgba(134, 134, 134, 0.91);
+    font-weight: 600;
+
+}
+.pingbuller__starts__updates p {
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-left: 60px;
+}
+.pingbuller__starts__updates img {
+    margin: -45px -0 -55px 0;
+}
+.pingbuller__starts__updates h3 {
+    font-family: sans-serif;
+    font-size: 16px;
+    margin:10px 0 0 280px;
+    text-transform: uppercase;
+    transform: scaleX(0.5);
 }
