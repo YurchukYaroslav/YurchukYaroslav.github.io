@@ -299,6 +299,7 @@ body {
     margin: 10px 0 0 40px;
     line-height: 22px;
     color: black;
+    text-shadow: 1px 0 0 #c5c5c5;
 }
 .pingbuller__starts__starts_here {
     background: url("../img/think.png") repeat-x;
@@ -323,7 +324,7 @@ body {
     font-family: sans-serif;
     font-size: 24px;
     font-weight: 600;
-    margin: 28px 0 0 -90px;
+    margin: 28px 0 0 -140px;
     color: #454545;
     text-transform: uppercase;
     transform: scaleX(0.5);
@@ -336,12 +337,12 @@ body {
     font-size: 14px;
     margin: 10px 0 0 60px;
     line-height: 22px;
-    color: black;
+    color: #454545;
 }
 .pingbuller__starts__updates a {
     text-decoration: none;
     color: black;
-    text-shadow: 2px 0 2px rgba(134, 134, 134, 0.91);
+    text-shadow: 1px 0 1px #c9c9c9;
     font-weight: 600;
 
 }
@@ -349,6 +350,7 @@ body {
     font-family: sans-serif;
     font-size: 14px;
     margin-left: 60px;
+    color: #454545;
 }
 .pingbuller__starts__updates img {
     margin: -45px -0 -55px 0;
@@ -356,7 +358,9 @@ body {
 .pingbuller__starts__updates h3 {
     font-family: sans-serif;
     font-size: 16px;
-    margin:10px 0 0 280px;
+    font-weight: 700;
+    color: #454545;
+    margin:30px 0 0 280px;
     text-transform: uppercase;
     transform: scaleX(0.5);
 }
