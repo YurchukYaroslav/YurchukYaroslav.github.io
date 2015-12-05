@@ -443,6 +443,7 @@ body {
     position: relative;
     float: right;
     margin: 80px 434px 0 0;
+    font-family: sans-serif;
     font-size: 12px;
     color: white;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.85);
@@ -486,6 +487,6 @@ body {
     font-size: 14px;
     line-height: 22px;
     color: #787878;
-    text-shadow: 1px 1px 0px #ffffff;;
+    text-shadow: 1px 1px 0 #ffffff;
 
 }
