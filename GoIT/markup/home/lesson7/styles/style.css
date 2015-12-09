@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-    width: 1500px;
+    width: 1415px;
     margin-top: 75px;
     position: absolute;
     left: 50%;
@@ -44,7 +44,7 @@ body {
 
 .top__menu {
     position: absolute;
-    right: -125px;
+    right: -165px;
     transform: scaleX(0.5);
     margin-top: 15px;
 
@@ -158,37 +158,25 @@ body {
     right: 70px;
     float: right;
 }
-/*
-.control {
-    position: absolute;
-    width: 100%;
-    top: 42%;
-    height: 50px;
-}
 
-.control label:hover {
-    opacity: 0.5;
-}
-*/
 .active__control {
     position: absolute;
     text-align: center;
     bottom: -100px;
-    right: -260px;
-    left: 250px;
+    right: 350px;
+
 }
 
-.active__control label {
+.active__control input {
     width: 15px;
     height: 15px;
-    background-color:  rgba(0, 0, 0, 0.5);
     display: inline-block;
     cursor: pointer;
     border-radius: 7px;
     margin: 0 2px;
 }
 
-.active__control label:hover {
+.active__control input:hover {
     background-color: #ffffff;
 }
 /*bbbbbbbbblllllllllllluuuuuuuurrrrrrbbbbbbbbbb*/
@@ -410,16 +398,16 @@ body {
 
 }
 .bottom__menu {
-    width: 1650px;
+    width: 1495px;
     margin-top: 865px;
     position: absolute;
-    left: 50%;
-    /* margin-right: -50%; */
+    left: 47%;
+    margin-right: -50%;
     transform: translate(-50%, -50%);
 }
 .bottom__menu__link {
     position: absolute;
-    right: 375px;
+    right: 260px;
     transform: scaleX(0.5);
     margin-top: 75px;
 }
@@ -440,9 +428,8 @@ body {
     border-bottom: 2px solid #ecb9ec;
 }
 .bottom__menu p {
-    position: relative;
     float: right;
-    margin: 80px 434px 0 0;
+    margin: 80px 320px 0 0;
     font-family: sans-serif;
     font-size: 12px;
     color: white;

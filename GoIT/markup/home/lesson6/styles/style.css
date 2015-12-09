@@ -327,7 +327,7 @@ body {
 }
 
 #left_disk p {
-    margin: 2px 6px 4px 5px;
+    margin: 0 6px 2px 5px;
 }
 #left_disk span {
     font-size: 12px;
@@ -341,7 +341,7 @@ body {
     left: 100px;
 }
 .select4 select {
-    margin: 8px 0;
+    margin: 6px 0;
 }
 #right_disk {
     width: 85px;
