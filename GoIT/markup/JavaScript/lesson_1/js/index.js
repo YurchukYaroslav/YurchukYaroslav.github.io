@@ -1,5 +1,5 @@
 /**
- * Created by Àäìèíèñòðàòîð on 1/23/2016.
+ * Created by yar on 1/23/2016.
  */
 function pow(x, n) {
   var result = x;
