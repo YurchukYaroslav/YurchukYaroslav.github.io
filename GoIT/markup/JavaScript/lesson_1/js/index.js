@@ -1,10 +1,10 @@
 /**
- * Created by Администратор on 1/23/2016.
+ * Created by ГЂГ¤Г¬ГЁГ­ГЁГ±ГІГ°Г ГІГ®Г° on 1/23/2016.
  */
 function pow(x, n) {
   var result = x;
   for (var i = 1; i < n; i++) {
-  result += x;
+  result *= x;
   }
   return result;
 };
